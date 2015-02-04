@@ -19,5 +19,13 @@
   "bugs": {
     "url": "https://github.com/fdegiuli/express-hello-route/issues"
   },
-  "homepage": "https://github.com/fdegiuli/express-hello-route"
+  "homepage": "https://github.com/fdegiuli/express-hello-route",
+  "dependencies": {
+    "consolidate": "^0.10.0",
+    "ejs": "^2.2.4",
+    "express": "^4.11.2",
+    "jade": "^1.9.1",
+    "lodash": "^3.1.0",
+    "mocha": "^2.1.0"
+  }
 }

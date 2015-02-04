@@ -1,0 +1,12 @@
+body {
+    font: 12pt lighter 'Helvetica Neue', Helvetica, sans-serif;
+    color: #222;
+}
+
+.hello {
+    display: inline-block;
+    padding: 20px;
+}  
+.hello:nth-child(odd) {
+    background-color: #DDD;
+}

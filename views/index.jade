@@ -1,0 +1,15 @@
+head
+    title Hello!
+
+    link(rel='stylesheet', href='/css/style.css')
+body
+    - var i = 0
+    while i++ < (num?num:1)
+        .hello
+            if name
+                p Hello, 
+                    = name + '!'
+            else
+                p Hello, stranger!
+
+
