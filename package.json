@@ -1,0 +1,23 @@
+{
+  "name": "express-hello",
+  "version": "1.0.0",
+  "description": "Standalone route for express.",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fdegiuli/express-hello-route.git"
+  },
+  "keywords": [
+    "express",
+    "node.js"
+  ],
+  "author": "Federico De Giuli",
+  "license": "GPL",
+  "bugs": {
+    "url": "https://github.com/fdegiuli/express-hello-route/issues"
+  },
+  "homepage": "https://github.com/fdegiuli/express-hello-route"
+}
