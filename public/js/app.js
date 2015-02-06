@@ -1,3 +1,3 @@
 $('.name').click(function () {
-    $(this).style({'background-color': '#A0D'});
+    $(this).css({'background-color': '#452f86', 'color': '#DDD'});
 } );

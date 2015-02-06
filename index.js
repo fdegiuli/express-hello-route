@@ -9,7 +9,7 @@ router.use(renderer(__dirname + '/views/', 'jade'));
 
 router.get('/index', function (req, res) { res.render('index', req.query); } );
 
-router.use('/*/public/', express.static(__dirname + '/public'));
+router.use('/public', express.static(__dirname + '/public'));
 
 
 
