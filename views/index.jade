@@ -1,7 +1,10 @@
 head
     title Hello!
 
-    link(rel='stylesheet', href='/css/style.css')
+    link(rel='stylesheet', href='public/css/style.css')
+
+    script(src="http://code.jquery.com/jquery-2.1.3.min.js")
+
 body
     - var i = 0
     while i++ < (num?num:1)
@@ -11,5 +14,6 @@ body
                     = name + '!'
             else
                 p Hello, stranger!
+    script(src='public/js/app.js')
 
 
