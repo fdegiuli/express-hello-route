@@ -1,10 +1,19 @@
 body {
-    font: 12pt lighter 'Helvetica Neue', Helvetica, sans-serif;
-    color: #222;
+    font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 18pt;
+    font-weight: 100;
+    letter-spacing: 1px;
+    color: #444;
+}
+.name {
+    color: darkred;
+    font-weight: 100;
 }
 
 .hello {
     display: inline-block;
+    border-top: 1px solid white;
+    border-right: 1px solid white;
     padding: 20px;
 }  
 .hello:nth-child(odd) {
