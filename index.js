@@ -1,16 +1,15 @@
+
 var renderer = require('./lib/renderer');
 
 var express = require('express');
 var router  = express.Router();
 
-
-
 router.use(renderer(__dirname + '/views/', 'jade'));
 
+
 router.get('/index', function (req, res) { res.render('index', req.query); } );
-
 router.use('/public', express.static(__dirname + '/public'));
-
+router.get('/', function (req, res) { res.redirect('/index'); } );
 
 
 
@@ -28,4 +27,3 @@ else {
     console.log('Loaded as module.');
     module.exports = router;
 }
-    

@@ -4,6 +4,7 @@
   "description": "Standalone route for express.",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon",
     "test": "./node_modules/mocha/bin/mocha test/*"
   },
   "repository": {
@@ -15,7 +16,7 @@
     "node.js"
   ],
   "author": "Federico De Giuli",
-  "license": "GPL",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/fdegiuli/express-hello-route/issues"
   },
